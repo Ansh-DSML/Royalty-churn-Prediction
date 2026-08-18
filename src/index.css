@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+/* For tabular figures in tables */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
